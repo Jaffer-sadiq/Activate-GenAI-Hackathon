@@ -19,9 +19,7 @@ In this challenge, you'll clone a provided repository to lay the groundwork for 
      > Hint : You can utilize the following repository, https://github.com/CloudLabsAI-Azure/mslearn-knowledge-mining.git, to explore and perform the scenarios listed below.
 
 2. **Setup Azure Resources:**
-   - Create an Azure AI Search resource with basic pricing.
-   - Create an Azure AI Service with the Standard S0 SKU.
-   > Note : Ensure to use the same region as the Azure AI Search resource.     
+   - Create an Azure AI Search resource with basic pricing.     
    - Create an Azure Storage Account with the Standard Tier.
 
 3. **Prepare Document Upload:**
@@ -35,6 +33,8 @@ In this challenge, you'll clone a provided repository to lay the groundwork for 
 
 5. **Data Import and Indexing:**
    - Import data for AI Search using Blob Storage.
+   - Create an Azure AI Service with the Standard S0 SKU using Azure AI Search resource.
+     > Note : Ensure to use the same region as the Azure AI Search resource.
    - Link with Azure AI Services and customize the index.
    - Create an indexer for seamless data integration.
 
