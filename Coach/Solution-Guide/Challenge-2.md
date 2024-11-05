@@ -220,7 +220,7 @@ In this task, you'll learn how to create a search solution by indexing documents
 
 1. On **Add cognitive skills (Optional)** tab expand **Attach AI Services(1)**, within the section click on **Create new Azure AI service** to create Azure AI service resource.
 
-   **Note:** This action will open a new tab to create the Azure AI services resource. Once the resource is created, return to the search service, click on **Refresh* to display the newly created resource name.
+   **Note:** This action will open a new tab to create the Azure AI services resource. Once the resource is created, return to the search service, click on **Refresh** to display the newly created resource name.
 
 1. Specify the following details to create an **Azure AI Service** then click on **Review + Create (7)** tab.
    
