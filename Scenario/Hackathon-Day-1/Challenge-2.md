@@ -34,7 +34,7 @@ In this challenge, you'll clone a provided repository to lay the groundwork for 
 5. **Data Import and Indexing:**
    - Import data for AI Search using Blob Storage.
    - Create an Azure AI Service with the Standard S0 SKU using Azure AI Search resource.
-     > Note : Ensure to use the same region as the Azure AI Search resource.
+     >**Note** : Ensure to use the same region as the Azure AI Search resource.
    - Link with Azure AI Services and customize the index.
    - Create an indexer for seamless data integration.
 
