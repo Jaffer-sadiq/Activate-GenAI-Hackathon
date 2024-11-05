@@ -99,42 +99,7 @@ In this task, you'll learn how to create an **Azure AI Search** resource in the 
 
 1. Review the **Overview** page on the blade for your Azure AI Search resource in the Azure portal. Here, you can use a visual interface to create, test, manage, and monitor the various components of a search solution, including data sources, indexes, indexers, and skillsets.
 
-#### Task 2.2: Create an Azure AI Services resource
-
-In this task, you'll learn how to create an Azure AI Search resource in the Azure portal. Your search solution will use this resource to enrich the data in the datastore with AI-generated insights.
-
-1. Return to the Azure portal home page, and then click the **&#65291;Create a resource** button.
-
-    ![](../media/Active-image21.png)
-     
-1. Search for and select **Azure AI Services (1) (2)** from the list then on the **Marketplace** page, select **Azure AI Services (3)**.
-
-   ![](../media/Active-image28.png)
-
-   ![](../media/Active-image29.png)
-    
-1. On the **Azure AI Services** page, click on **Create**. 
-
-   ![](../media/Active-image30.png)
-   
-1. Specify the following details to create an **Azure AI Service** then click on **Review + Create (7)** tab.
-   
-   | **Option**         | **Value**                                              |
-   | ------------------ | -----------------------------------------------------  |
-   | Subscription       | Leave default  **(1)**                                 |
-   | Resource Group     | **Activate-GenAI**  **(2)**        |
-   | Name               | *Enter a unique name* for your Azure AI Services or use the format **challengeservice-xxxxxx** (replace **xxxxxx** with the **Deployment ID** recorded in **Challenge 01**) **(3)** |
-   | Location           | Use the same location as the resource group  **(4)**          |
-   | Pricing tier       | Standard S0     **(5)**                                        |
-   | By checking this box I acknowledge that I have read and understood all the terms below | Select the **Checkbox** **(6)**| 
-
-    >**Note**: Here, xxxxxx refers to the deployment ID
-    
-    ![](../media/Active-image(31).png)
-   
-1. Once validation is successful on the **Review + create** tab, click **Create** and wait for the deployment to complete then click on **Go to the resource**.
-
-#### Task 2.3: Create a storage account
+### Task 2.2: Create a storage account
 
 In this task, you'll learn how to create a **Storage account** resource in the Azure portal, and in next steps will be creating blob container where the documents to be searched are stored.
 
@@ -174,7 +139,7 @@ In this task, you'll learn how to create a **Storage account** resource in the A
 
     > **Tip**: Keep the **Storage Account** blade open; you will need the subscription ID and one of the keys in the next procedure.
 
-### Task 3 and Task 4: Upload documents to Azure Storage and execute the uploaded script
+## Task 3 and Task 4: Upload documents to Azure Storage and execute the uploaded script
 
 In this task, you'll navigate between Visual Studio Code and the Azure portal to retrieve necessary credentials, update a batch file, and use the Azure CLI to upload documents to a blob container in your storage account.
 
@@ -253,7 +218,26 @@ In this task, you'll learn how to create a search solution by indexing documents
     - **Description**: Brochures and reviews in Margie's Travel web site. (13)
     - Click on **Add cognitive skills(Optional) (14)**
 
-       ![](../media/Active-image58.png)
+1. On **Add cognitive skills (Optional)** tab expand **Attach AI Services(1)**, within the section click on **Create new Azure AI service** to create Azure AI service resource.
+
+   **Note:** This action will open a new tab to create the Azure AI services resource. Once the resource is created, return to the search service, click on **Refresh* to display the newly created resource name.
+
+1. Specify the following details to create an **Azure AI Service** then click on **Review + Create (7)** tab.
+   
+   | **Option**         | **Value**                                              |
+   | ------------------ | -----------------------------------------------------  |
+   | Subscription       | Leave default  **(1)**                                 |
+   | Resource Group     | **Activate-GenAI**  **(2)**        |
+   | Name               | *Enter a unique name* for your Azure AI Services or use the format **challengeservice-xxxxxx** (replace **xxxxxx** with the **Deployment ID** recorded in **Challenge 01**) **(3)** |
+   | Location           | Use the same location as the resource group  **(4)**          |
+   | Pricing tier       | Standard S0     **(5)**                                        |
+   | By checking this box I acknowledge that I have read and understood all the terms below | Select the **Checkbox** **(6)**| 
+
+    >**Note**: Here, xxxxxx refers to the deployment ID
+    
+    ![](../media/Active-image(31).png)
+   
+1. Once validation is successful on the **Review + create** tab, click **Create** and wait for the deployment to complete.
 
 1. On **Add cognitive skills (Optional)** tab expand **Attach AI Services(1)**, within the section  select your **Azure AI Services (2)** resource.
 
