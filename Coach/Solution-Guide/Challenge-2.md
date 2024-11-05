@@ -387,10 +387,8 @@ In this task, you'll learn to search and query the index created earlier:
     ```
 
     >**Note**: This query returns the filename of any documents authored by *Reviewer* that mention "New York".
-
-      ![](../media/search-explorer.png) 
   
-### Task 6: Explore and modify the definitions of search components
+## Task 6: Explore and modify the definitions of search components
 
 The components of the search solution are based on JSON definitions, which you can view and edit in the Azure portal.
 
